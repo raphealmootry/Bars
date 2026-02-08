@@ -6,7 +6,7 @@ import os
 # Store your key in Streamlit Secrets for security when deploying
 # For local testing, you can use: os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
-model = genai.GenerativeModel('gemini-1.5-pro')
+model = genai.GenerativeModel('gemini-2.0-flash')
 
 st.title("🎤 16-Bar Rap Architect")
 st.markdown("Reformat your thoughts into a 16-bar verse in the style of your favorite legends.")
