@@ -14,10 +14,12 @@ st.markdown("Reformat your thoughts into a 16-bar verse in the style of your fav
 # 2. Artist & Rhyme Scheme Logic
 # In a real app, you'd store the 'logic' or 'analysis' from the screenshots here
 artist_options = {
-    "Kendrick Lamar": "Complex internal rhymes, multi-syllabic schemes, frequent meter shifts.",
+    
+    "Kendrick Lamar (HUMBLE style)": "Uses extended AAAA multi-syllabic end rhymes with roughly 11 syllables per line. Employs internal rhymes on beats 2 and 3, and utilizes repetitive word anchors (tails) at the end of bars for rhythmic emphasis.",
     "MF DOOM": "Dense holorimes, unconventional word breaks, every word rhymes.",
     "Drake": "AABB or ABAB, conversational flow, emphasis on end-rhymes.",
     "Custom Artist": "Paste your own analysis or upload a screenshot."
+    
 }
 
 artist_choice = st.selectbox("Choose an Artist's Rhyme Scheme:", list(artist_options.keys()))
